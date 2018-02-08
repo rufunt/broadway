@@ -23,7 +23,6 @@ class PlaysController < ApplicationController
   end
 
   def edit
-    
   end
 
   def update
@@ -35,7 +34,8 @@ class PlaysController < ApplicationController
   end
 
   def destroy
-    
+    @play.destroy
+    redirect_to root_path
   end
 
   private
