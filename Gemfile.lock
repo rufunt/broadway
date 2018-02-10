@@ -214,6 +214,7 @@ DEPENDENCIES
   bootstrap-sass
   byebug
   capybara (~> 2.13)
+  cocaine
   coffee-rails (~> 4.2)
   devise
   jbuilder (~> 2.5)
