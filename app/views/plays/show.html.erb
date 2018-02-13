@@ -4,10 +4,12 @@
   </div>
 
   <div class="col-md-8">
-    <h2><%= @play.title %></h2>
-    <h3><%= @play.director %></h3>
-    <h4><%= @play.category.name %></h4>
-    <p><%= @play.description %></p>
+    <div class="play-info">
+      <h1><%= @play.title %></h1>
+      <h3 class="play-director"><span>from  </span><%= @play.director %></h3>
+      <h4 class="play-director"><%= @play.category.name %></h4>
+      <p class="play-desc"><%= @play.description %></p>
+    </div>
   </div>
 </div>
 
